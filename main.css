@@ -54,10 +54,9 @@ body {
 .buttons {
 	background-color: white;
 }
-#small {
-	width: 30px;
-	height: 30px;
+.images{
+	display:none;
 }
-.swim1 {
-	background-color: red;
+#press{
+background-color: red;
 }
