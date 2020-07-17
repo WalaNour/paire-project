@@ -7,6 +7,7 @@ function showSwim(){
 	count++;
 	if(count%2 !==0){
 		$('.mainSwimming').show();
+		$('.mainVolleyball').hide();
 	}
 	else if (count%2===0){
 		$('.mainSwimming').hide()
@@ -26,6 +27,7 @@ function showVoll(){
 function showAmer(){
 	count++;
 	if(count%2 !== 0){
+		$('.mainSwimming').hide()
 		$('.mainVolleyball').hide()
 		$('.mainAmer').show()
 	}
@@ -33,6 +35,7 @@ function showAmer(){
 		$('.mainAmer').hide()
 	}
 }
+
 
 // function press(){
 // 	if(type(storage)!== "undefined"){
@@ -50,4 +53,3 @@ function showAmer(){
 	counter ++
 	button.innerHTML=+ counter;
 }
-	
